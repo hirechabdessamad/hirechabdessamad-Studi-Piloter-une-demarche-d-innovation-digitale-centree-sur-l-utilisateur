@@ -1,0 +1,10 @@
+[
+  {
+    "event": "ALERT ZFE",
+    "point_id": 4,
+    "timestamp": "08:00:30",
+    "latitude": 45.76,
+    "longitude": 4.8357,
+    "message": "Entrée détectée dans le périmètre ZFE."
+  }
+]

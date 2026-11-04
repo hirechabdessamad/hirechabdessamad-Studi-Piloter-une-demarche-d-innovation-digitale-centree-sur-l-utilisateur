@@ -1,0 +1,22 @@
+{
+  "device": "GML-Connect-POC",
+  "module": "Safety / Physics",
+  "unit": "m/s²",
+  "threshold": {
+    "axis": "Y",
+    "condition": "acc_y < threshold",
+    "value": -2.5
+  },
+  "samples_processed": 10,
+  "harsh_braking_count": 1,
+  "events": [
+    {
+      "type": "HARSH_BRAKING",
+      "label": "Freinage violent",
+      "timestamp": 1678880005,
+      "acc_y_m_s2": -3.45,
+      "threshold_m_s2": -2.5,
+      "severity": "high"
+    }
+  ]
+}
